@@ -1,0 +1,149 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #faaae5;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a6ecff;
+  margin: 0;
+}
+
+header img {
+  width: 20%;
+  max-width: 500px;
+  height: 46px;
+  max-height: 46px;
+  aspect-ratio: 25 / 11;
+  padding: 0.4rem;
+  padding-left: 0;
+  margin-left: -15px;
+}
+
+nav {
+  width: 50%;
+  max-width: 300px;
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ nav li {
+   display: block;
+   height: 100%;
+   margin: 0 0.2rem;
+   padding: 0.2rem;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding-inline-start: 0;
+   margin-block: 0;
+}
+
+li a {
+  color: #d4a6ff;
+  font-size: 20px;
+  font-family: 'BlinkRegular';
+  letter-spacing: 0.15em;
+  text-decoration: none;
+  stroke: 3px black;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  background-color: #507bbf;
+  padding-top: 50px;
+  height: 90%;
+  min-height: 1050px;
+  margin: 0 0.5em;
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 65px;
+  margin: 0;
+  padding: 65px 0 15px 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  padding-top: 30px;
+}
+
+h3 {
+  width: auto;
+  text-align: center;
+  font-size: 35px;
+}
+
+footer {
+  margin: 0.5em;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+address {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'NewTelegraphRegular';
+  word-spacing: 0.15em;
+}
+
+.title {
+  color: #2e0042;
+  font-family: 'BlinkRegular';
+  letter-spacing: 0.05em;
+}
+
+#main-content {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+#img-div {
+  width: auto;
+  text-align: center;
+}
+
+#image {
+  width: 500px;
+  margin: 5px auto 0;
+  padding: 0;
+  border-radius: 20px;
+}
+
+#img-caption, #tribute-info {
+  margin: 0;
+  padding: 15px 125px;
+  font-family: 'NewTelegraphRegular';
+}
+
+#tribute-info {
+  text-indent: 15px;
+}
+
+#wiki {
+  margin: 0;
+  font-family: 'NewTelegraphRegular';
+  padding-top: 105px;
+}
